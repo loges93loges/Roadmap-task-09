@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            margin-top: 50px;
+            border-radius: 30px;
+            padding-left: 10px;
+            font-size: 18px;
+            border: none;
+
+
+        }
+        .container{
+            width: 1400px;
+            position: relative;
+            height: 800px;
+            margin-left: 20px;
+            background-color: rgb(0, 220, 249);
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            justify-content: space-evenly;
+        }  
+    .box{
+        width: 300px;
+        height: 250px;
+        background: linear-gradient(45deg, rgb(243, 124, 209), rgb(62, 62, 186));
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        opacity: 0.9;
+        
+    }
+    .box:hover{
+            opacity: 1;
+            filter: brightness(150%);
+            transition: 0.5s;
+            box-shadow: 3px 3px 0px 2px blue;
+    
+        }
+        .search:focus{
+           width: 500px;
+           transition: 0.3s ease-in-out;
+        }
+        .img{
+            margin-left: -170px;
+            width: 120px;
+            height: 140px;
+            background-color: black;
+            display: inline-block;
+            opacity: 0.5;
+        }
+        .img:hover{
+            opacity: 1;
+        }
+        p{
+            margin-left: 130px;
+            margin-top: -147px;
+        }
+        button{
+            width: 120px;
+            height: 35px;
+            margin-left: 130px;
+            font-style: bold;
+        }
+        button:focus{
+            background-color: rgba(0, 0, 0, 0.8);
+            color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 10px 2px rgb(0, 255, 4);
+            transition: 0.4s;
+        }
+    </style>
+    <div class="container">
+        <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 1</h4>
+        <br>
+        <div class="img"></div>
+        <P>23-Jan-24<br><br>Seats Available:<br>23</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 2</h4>
+        <br>
+        <div class="img"></div>
+        <P>10-Feb-24<br><br>Seats Available:<br>10</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 3</h4>
+        <br>
+        <div class="img"></div>
+        <P>18-Mar-24<br><br>Seats Available:<br>18</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 4</h4>
+        <br>
+        <div class="img"></div>
+        <P>23-Apr-24<br><br>Seats Available:<br>23</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 5</h4>
+        <br>
+        <div class="img"></div>
+        <P>07-May-24<br><br>Seats Available:<br>07</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 6</h4>
+        <br>
+        <div class="img"></div>
+        <P>28-Jun-24<br><br>Seats Available:<br>28</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 7</h4>
+        <br>
+        <div class="img"></div>
+        <P>20-Jul-24<br><br>Seats Available:<br>20</P>
+        <button>Book Now</button>
+    </div>
+    <input class="search" type="search" name="search" placeholder="search">
+    <div class="box">
+        <h4>Event 8</h4>
+        <br>
+        <div class="img"></div>
+        <P>11-AUG-24<br><br>Seats Available:<br>11</P>
+        <button>Book Now</button>
+    </div>
+</div>
+</body>
+</html>
